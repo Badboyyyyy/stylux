@@ -30,6 +30,29 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 </head>
+<style>
+    #social ul li{
+        margin:5px;
+        padding: 0.5em;
+        width:40px;
+        height:40px;
+        border-radius:40px;
+        border:2px solid white;
+
+    }
+    #social ul li a{
+        color:white;
+    }
+    @media(max-width:768px){
+        .slider-main-title{
+            position: relative;
+            top:50vh;
+        }
+        #mob{
+            color:black;
+        }
+    }
+</style>
 
 <body class="white-overlay">
     <div class="preloader" id="pageLoad">
@@ -242,12 +265,12 @@ hard work.</h2>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-4 text-right">
-                            <ul class="social-network with-text">
-                                <li><a href="#"><span class="icon-facebook" style="font-size:20px"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram" style="font-size:20px"></span> </a></li>
-                                <li><a href="#"><span class="fab fa-youtube" style="font-size:20px"></span> </a></li>
-                               
+                        <div class="col-md-4 text-right" id="social" style="display:flex;">
+                          <ul style="list-style: none; display: flex;">
+                                <li><a href="https://www.facebook.com/StyloxIndia/" class="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="twitter"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCLJoblkKhZsm1x06bRux97g" class="google"><i class="fab fa-youtube"></i></i></a></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -255,8 +278,8 @@ hard work.</h2>
             </div>
             <div class="footer-bottom text-center">
                 <div class="container">
-                    <p>Copyright 2021 - STYLOX - Multi Purpose Theme by Stylox </p>
-                </div>
+                   <p>Copyright 2021 - Stylox created by Maxifyy</p>
+               </div>
             </div>
         </footer>
         <!--/footer of the page -->

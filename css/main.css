@@ -5534,9 +5534,7 @@ pre {
 	background-image: url('../img/visual-small-10.jpg');
 }
 
-.visual-banner-v10 {
-	background-image: url('../img/visual-small-11.jpg');
-}
+
 
 .visual-banner-v11 {
 	background-image: url('../img/visual-small-12.jpg');
@@ -12907,6 +12905,44 @@ a.full-width-icon:hover .social-text {
 		display: block;
 	}
 
+.social-icon ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin:10px;
+}
+.social-icon ul li{
+  margin:10px;
+}
+.social-icon ul li a{
+  width:30px;
+  height:30px;
+  background-color:black;
+  border-radius: 50px;
+  text-align: center;
+   border:1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social-icon ul li a i{
+
+  color:white !important;
+}
+.social-icon ul li a .fa-facebook-f:hover{
+  color:#3b5998 !important;
+}
+.social-icon ul li a .fa-twitter:hover{
+  color:#00b6f1 !important;
+}
+.social-icon ul li a .fa-google-plus-g:hover{
+  color:#c20806 !important;
+}
+.social-icon ul li a .fa-linkedin:hover{
+  color:#04669A !important;
+}
 	.mega-menus .navbar-push.navbar-static-top .navbar-collapse.collapse.in,.mega-menus .navbar-push.navbar-fixed-top .navbar-collapse.collapse.in {
 		-webkit-transform: translateX(0);
 		-o-transform: translateX(0);
