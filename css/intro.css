@@ -5120,8 +5120,8 @@ textarea:focus:-ms-input-placeholder {
       -webkit-transition: all .3s linear;
       -o-transition: all .3s linear;
       transition: all .3s linear; }
-    .social-network a:hover .icon-facebook {
-      color: #3b5998; }
+     #social ul li a i:hover  {
+      color: #3b5998 !important; }
     .social-network a:hover .icon-twitter {
       color: #1da1f2; }
     .social-network a:hover .icon-google-plus {
