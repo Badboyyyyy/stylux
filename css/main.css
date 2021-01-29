@@ -10344,7 +10344,9 @@ a.full-width-icon:hover .social-text {
 	.pricing-block .col-wrap {
 		padding-bottom: 0;
 	}
-
+   .owl-carousel{
+   	margin:20px;
+   }
 	.pricing-block .col-wrap:first-child {
 		border-width: 0 .07143rem 0 0;
 	}
